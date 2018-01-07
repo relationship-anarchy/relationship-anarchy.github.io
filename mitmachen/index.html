@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<meta name='description' content='Du kannst mehr tun, als nur zu lesen...'>
+
+<meta property='og:title' content='Mitmachen • relationship-anarchy.org'>
+<meta property='og:description' content='Du kannst mehr tun, als nur zu lesen...'>
+<meta property='og:url' content='https://relationship-anarchy.org/mitmachen/'>
+<meta property='og:site_name' content='relationship-anarchy.org'>
+<meta property='og:type' content='article'><meta property='article:section' content='Page'><meta name='twitter:card' content='summary'>
+
+<meta name="generator" content="Hugo 0.32.2" />
+
+  <title>Mitmachen • relationship-anarchy.org</title>
+  <link rel='canonical' href='https://relationship-anarchy.org/mitmachen/'>
+  
+  
+  <link rel='icon' href='/favicon.ico'>
+<link rel='stylesheet' href='/assets/css/main.c54db339.css'><link rel='stylesheet' href='/css/custom.css'>
+</head>
+
+
+<body class='page type-page'>
+  <div class='site'>
+
+    <a class='screen-reader' href='#main'>Skip to Content</a>
+
+    <header id='header' class='header-container'>
+      <div class='header site-header'>
+        <nav id='main-menu' class='main-menu-container' aria-label='Main Menu'>
+  <ul class='main-menu'>
+  <li>
+      <a href='/'>Home</a>
+    </li>
+  <li>
+      <a href='/blog/'>Blog</a>
+    </li>
+  <li>
+      <a class='current' aria-current='page' href='/mitmachen/'>Mitmachen</a>
+    </li>
+  <li>
+      <a href='https://github.com/relationship-anarchy/relationship-anarchy.org'>Repo</a>
+    </li>
+  
+  </ul>
+</nav>
+
+        <div class='header-info'>
+          
+          <p class='site-title title'>relationship-anarchy.org</p>
+          
+          <p class='site-description subtitle'>von Liebe ohne Konventionen</p>
+        </div>
+      </div>
+    </header>
+
+
+<main id='main' class='main'>
+  <article lang='en' class='entry'>
+    <header class='header-container'>
+  <div class='header entry-header'>
+    <div class='header-info'>
+      <h1 class='title'>Mitmachen</h1>
+      
+<p class='subtitle'>Du kannst mehr tun, als nur zu lesen...</p>
+
+
+    </div>
+    
+
+  </div>
+</header>
+
+    
+    
+
+    <div class='entry-content'>
+  
+
+<p>Oft liest man in einem Blog nur mit, kommentiert maximal die Beiträge. Dieser Blog soll anders sein. Daher ist das selber Schreiben von Beiträgen sehr willkommen und absolut erwünscht. Und um der <em>Anarchie</em> im Titel hierbei etwas Rechnung zu tragen, wurde die entsprechende Technik verwendet.</p>
+
+<p>Daher basiert dieser Blog auf <a href="http://gohugo.io" target="_blank">hugo</a>, gehostet auf <a href="https://github.com" target="_blank">GitHub</a>, basierend auf einem <a href="https://github.com/relationship-anarchy/relationship-anarchy.org" target="_blank">öffentlichen Repo</a>.</p>
+
+<p>Alles klar? Super, dann mal los&hellip; Ich freue mich! - Keine Ahnung? Auch kein Problem&hellip;</p>
+
+<p>hugo ist ein sog. Framework. Also unterm Strich eine einfach Art bzw. in diesem Fall ein Programm, um aus vielen Dateien, auf sehr einfache Art, so etwas wie diesen Blog zu basteln. GitHub ist ein Service der die Zusammenarbeit mit sehr vielen Menschen und dem gemeinsamen Arbeiten an verschiedenen Dateien wesentlich komfortabler macht. (Ja, stark vereinfacht dargestellt&hellip; Aber die Dienste bieten auf Ihren Seiten auch bereits wesentlich besser Erklärungen. Alternativ hilft die Suchmaschine des Vertrauens sicher weiter. Und wer die Muße hat das ganze besser zu beschreiben oder sogar einen einfacheren Weg kennt&hellip; Ich würde mich freuen!)</p>
+
+<p>Solltest Du bereits ein Autor Profil angelegt haben, geht es gleich mit dem <a href="#blog-eintrag">Blog Eintrag</a> weiter&hellip;</p>
+
+<p>Falls dieses Vorgehen zu kompliziert sein sollte, kannst Du Deinen Text auch einfach an <a href="mailto:mr.smith@relationship-anarchy.org" target="_blank">mr.smith@relationship-anarchy.org</a> senden. Ich kümmere mich dann gerne darum und veröffentliche diesen in Deinem Namen.</p>
+
+<hr />
+
+<h5 id="autor-anlegen">Autor anlegen</h5>
+
+<p>Wenn Du das erste Mal einen Beitrag schreiben willst, benötigst Du erstmal ein Autor Profil. Dies ist jedoch kein Problem und schnell angelegt. Hierzu legen wir in <a href="https://github.com/relationship-anarchy/relationship-anarchy.org/tree/master/data/authors" target="_blank">data/authors</a> einfache eine entsprechende Datei an. Solltest Du dies direkt über GitHub machen, klicke auf den Link und oben rechts auf <strong>Create new file</strong>. Sollte dieser Button grau hinterlegt sein, musst Du Dich erst einmal bei GitHub einloggen bzw. Dir einen Account erstellen. Dies ist kostenlos und anonym, unter Angabe von Nick und einer E-Mail Adresse (Ihr bekommt eine E-Mail mit Bestätigungslink, der angeklickt werden muss, bevor Änderungen erlaubt sind!) möglich.</p>
+
+
+<figure >
+    
+        <img src="/images/add_author_1.png" />
+    
+    
+</figure>
+
+
+<p>Hinter <em>relationship-anarchy.org/data/authors/</em> ins Feld <em>Name your file&hellip;</em> kommt Dein Autor-Name gefolgt von <em>.toml</em>, also z.B. <em>mrsmith</em><strong>.toml</strong>. (Bitte alles klein und ohne Leerzeichen, Bindestriche o.ä.)</p>
+
+<p>In das große Feld darunter kommen die Angaben zu Deiner Person. Für mein Profil sieht dies z.B. so aus:</p>
+
+<pre><code>id = &quot;mrsmith&quot;
+
+[email]
+username = &quot;mr.smith&quot;
+host = &quot;relationship-anarchy.org&quot;
+
+[name]
+display = &quot;Mr. Smith&quot;
+
+[social]
+email = &quot;&quot;
+facebook = &quot;&quot;
+twitter = &quot;&quot;
+</code></pre>
+
+<ul>
+<li><strong>id</strong> ist hierbei die ID, die Du in Deinen Beiträgen angibst, damit dieser Dir zugeordnet werden kann. Idealer Weise verwendest Du hier die gleiche Bezeichnung wie beim Dateinamen (ohne .toml).</li>
+<li><strong>username</strong> ist der Teil einer E-Mail Adresse vor dem @.</li>
+<li><strong>host</strong> der Teil der E-Mail Adresse nach dem @.</li>
+<li><strong>display</strong> ist der Name, wie er bei euren Beiträgen angezeigt wird.</li>
+</ul>
+
+
+<figure >
+    
+        <img src="/images/add_author_2.png" />
+    
+    
+</figure>
+
+
+<p>Im ersten Feld unter <strong>Propose new file</strong> können wir nun noch eine kurz sog. <em>commit message</em> eingeben. Also einer Erwähnung was wir getan haben. Im Feld darunter gibt es die Möglichkeit des optionalen, ausführlicheren Erklärung.</p>
+
+<p>Mit einem Klick auf den grünen <strong>Propose new file</strong> Button, wird diese Datei erstmal in eurem Account angelegt. Mit einem zwei Klicks auf jeweils den grünen Button <strong>Create pull request</strong> sendest Du die Datei dann ans eigentliche Repo.</p>
+
+<p>
+<figure >
+    
+        <img src="/images/add_author_3.png" />
+    
+    
+</figure>
+
+
+<figure >
+    
+        <img src="/images/add_author_4.png" />
+    
+    
+</figure>
+</p>
+
+<p>Damit ist die Datei angelegt und wartet darauf von einem Teammitglied bestätigt zu werden. In diesem Zustand kann diese Änderung von Dir und jedem anderen natürlich noch kommentiert und diskutiert werden. Jedoch sollte eine Übernahme der Datei gewöhnlich umgehend erfolgen!</p>
+
+
+<figure >
+    
+        <img src="/images/add_author_5.png" />
+    
+    
+</figure>
+
+
+<hr />
+
+<h5 id="blog-eintrag">Blog Eintrag</h5>
+
+<p>Du hast Deinen Autor Account gerade eben oder bereits in der Vergangenheit angelegt? Super! Dann geht es nun ans Schreiben eines Beitrages.</p>
+
+<p>Neue Beiträge werden, ähnlich wie die Autorenprofile, ebenfalls einfach als Datei angelegt. Die gehören jedoch in <a href="https://github.com/relationship-anarchy/relationship-anarchy.org/tree/master/content/blog" target="_blank">content/blog</a>. Hier erwartet uns, nach einem Klick auf den <strong>Create new file</strong> Button, oben rechts, wieder das gewohnte Bild.</p>
+
+
+<figure >
+    
+        <img src="/images/add_entry_1.png" />
+    
+    
+</figure>
+
+
+<p>Als Titel für den Dateinamen nehmen wir die Überschrift unseres geplanten Beitrages, Leerzeichen durch Bindestriche ersetzt und die Endung <strong>.md</strong> angehängt. -&gt; <em>mein-erster-beitrag</em><strong>.md</strong></p>
+
+<p>Das große Feld darunter wird mit dem Beitrag an sich gefüllt&hellip;</p>
+
+<pre><code>---
+date: 2018-01-07T20:05:10+01:00
+title: Mein erster Beitrag
+authors: [&quot;mrsmith&quot;]
+---
+
+HIER KOMMT MEIN TEXT...
+
+Und noch viel mehr davon... Einfach immer weiter... Wie man halt
+seinen Text schreibt.
+</code></pre>
+
+<p>Zwischen den &mdash; sind die Angaben für den Beitrag selbst.</p>
+
+<ul>
+<li><strong>date</strong> ist das Datum eures Beitrages im Format <em><strong>2018-01-07</strong>T<strong>20:05:10</strong>+01:00</em> für den 07.01.2018 um 20:05 Uhr und 10 Sekunden. Einfach von hinten nach vorne gelesen. Wobei es hier auf eine halbe Stunde nicht ankommt&hellip;</li>
+<li><strong>title</strong> ist der Titel eures Beitrages, wie dieser anzeigt werden soll.</li>
+<li><strong>authors</strong> ist eure Autor ID, oben angelegt unter dem Punkt <strong>ID</strong>. Hier wäre es auch möglich mehrere Autoren anzugeben. Dies wäre dann z.B. [&rdquo;<strong>mrsmith</strong>&rdquo;,&rdquo;<strong>anarchist</strong>&rdquo;] für die Autoren ID&rsquo;s <strong>mrsmith</strong> und <strong>anarchist</strong>.</li>
+</ul>
+
+<p>Unter den abschließenden drei Bindestrichen fangt ihr dann einfach euren Text an und speichert diesen, wie bereits beim Autor geschehen. (Grünen Button klicken, bis <em>Comment</em> darauf steht&hellip;)</p>
+
+<hr />
+
+<p>Wie gesagt&hellip; Ist dieses Vorgehen zu kompliziert, gerne den Text einfach an <a href="mailto:mr.smith@relationship-anarchy.org" target="_blank">mr.smith@relationship-anarchy.org</a>. Ich veröffentliche diesen dann, in Deinem Namen. Falls bessere Vorschläge bestehen, auch diese sehr gerne! ;-)</p>
+
+</div>
+
+    
+
+  </article>
+  
+  
+<div class='comments-container'>
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "relationship-anarchy" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+</main>
+
+    <footer id='footer' class='footer-container'>
+      <div class='footer'>
+        <div class='social-menu-container'>
+  <nav aria-label='Social Menu'>
+    <ul class='social-menu'><li>
+        <a href='https://github.com/relationship-anarchy' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Open Github account in new tab</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+  
+</svg>
+</a>
+      </li><li>
+        <a href='mailto:mr.smith@relationship-anarchy.org' target='_blank' rel='noopener'>
+          <span class='screen-reader'>Contact via Email</span><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+  
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+  <polyline points="22,6 12,13 2,6"/>
+  
+</svg>
+</a>
+      </li></ul>
+  </nav>
+</div>
+        <div class='copyright'>
+  <p>
+        
+          
+        
+      
+
+       &copy; 2017-2018 Mr. Smith 
+  </p>
+</div>
+
+      </div>
+    </footer>
+
+  </div><script src='/assets/js/main.5871befd.js'></script><script src='/js/custom.js'></script></body>
+
+</html>
+

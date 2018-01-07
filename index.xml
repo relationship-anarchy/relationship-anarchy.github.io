@@ -11,6 +11,17 @@
     
     
     <item>
+      <title>Mitmachen</title>
+      <link>https://relationship-anarchy.org/mitmachen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://relationship-anarchy.org/mitmachen/</guid>
+      <description>Oft liest man in einem Blog nur mit, kommentiert maximal die Beiträge. Dieser Blog soll anders sein. Daher ist das selber Schreiben von Beiträgen sehr willkommen und absolut erwünscht. Und um der Anarchie im Titel hierbei etwas Rechnung zu tragen, wurde die entsprechende Technik verwendet.
+Daher basiert dieser Blog auf hugo, gehostet auf GitHub, basierend auf einem öffentlichen Repo.
+Alles klar? Super, dann mal los&amp;hellip; Ich freue mich! - Keine Ahnung?</description>
+    </item>
+    
+    <item>
       <title>Wer bin ich...</title>
       <link>https://relationship-anarchy.org/blog/wer-bin-ich/</link>
       <pubDate>Sun, 07 Jan 2018 06:01:58 +0100</pubDate>
