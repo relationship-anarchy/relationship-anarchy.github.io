@@ -5,6 +5,7 @@
     <link>https://relationship-anarchy.org/page/</link>
     <description>Recent content in Pages on relationship-anarchy.org</description>
     <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 01 Jan 1970 00:00:01 +0100</lastBuildDate>
     
 	<atom:link href="https://relationship-anarchy.org/page/index.xml" rel="self" type="application/rss+xml" />
     
@@ -18,6 +19,15 @@
       <description>Oft liest man in einem Blog nur mit, kommentiert maximal die Beiträge. Dieser Blog soll anders sein. Daher ist das selber Schreiben von Beiträgen sehr willkommen und absolut erwünscht. Und um der Anarchie im Titel hierbei etwas Rechnung zu tragen, wurde die entsprechende Technik verwendet.
 Daher basiert dieser Blog auf hugo, gehostet auf GitHub, basierend auf einem öffentlichen Repo.
 Alles klar? Super, dann mal los&amp;hellip; Ich freue mich! Bei Fragen stehe ich gerne per E-Mail zur Verfügung.</description>
+    </item>
+    
+    <item>
+      <title>Abonnieren</title>
+      <link>https://relationship-anarchy.org/abonnieren/</link>
+      <pubDate>Thu, 01 Jan 1970 00:00:01 +0100</pubDate>
+      
+      <guid>https://relationship-anarchy.org/abonnieren/</guid>
+      <description>Follow(function(d, s, id) {var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s);js.id = id;js.src = &amp;ldquo;https://www.bloglovin.com/widget/js/loader.js?v=1&amp;quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &amp;ldquo;script&amp;rdquo;, &amp;ldquo;bloglovin-sdk&amp;rdquo;))</description>
     </item>
     
     <item>
