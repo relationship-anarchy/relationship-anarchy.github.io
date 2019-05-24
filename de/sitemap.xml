@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://relationship-anarchy.org/</loc>
-    <lastmod>2018-01-17T01:15:58+01:00</lastmod>
+    <lastmod>2019-05-24T22:31:04+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -19,11 +19,37 @@
   
   <url>
     <loc>https://relationship-anarchy.org/blog/</loc>
-    <lastmod>2018-01-17T01:15:58+01:00</lastmod>
+    <lastmod>2019-05-24T22:31:04+02:00</lastmod>
   </url>
   
   <url>
     <loc>https://relationship-anarchy.org/mitmachen/</loc>
+  </url>
+  
+  <url>
+    <loc>https://relationship-anarchy.org/authors/</loc>
+    <lastmod>2019-05-24T22:31:04+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://relationship-anarchy.org/en/authors/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://relationship-anarchy.org/authors/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://relationship-anarchy.org/blog/kann-man-sich-neu-erfinden/</loc>
+    <lastmod>2019-05-24T22:31:04+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://relationship-anarchy.org/authors/mrsmith/</loc>
+    <lastmod>2019-05-24T22:31:04+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -44,20 +70,6 @@
   <url>
     <loc>https://relationship-anarchy.org/blog/altes-jahr-neuer-blog/</loc>
     <lastmod>2017-12-22T19:05:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://relationship-anarchy.org/authors/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://relationship-anarchy.org/en/authors/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://relationship-anarchy.org/authors/"
-                />
   </url>
   
   <url>
@@ -88,14 +100,23 @@
   </url>
   
   <url>
-    <loc>https://relationship-anarchy.org/authors/mrsmith/</loc>
-    <lastmod>2018-01-17T01:15:58+01:00</lastmod>
+    <loc>https://relationship-anarchy.org/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://relationship-anarchy.org/page/</loc>
+    <loc>https://relationship-anarchy.org/series/</loc>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://relationship-anarchy.org/en/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://relationship-anarchy.org/series/"
+                />
   </url>
   
   <url>
